@@ -117,6 +117,7 @@ def verify(path):
         print("Mediate contention test ends.")
         t3.join()
         print("High contention test ends.")
+        os.chdir("..")
 
 
 if __name__ == '__main__':
